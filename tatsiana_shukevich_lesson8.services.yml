@@ -1,0 +1,4 @@
+services:
+    tatsiana_shukevich_lesson8.log_service:
+        class: Drupal\tatsiana_shukevich_lesson8\LogService
+        arguments: ['@logger.factory']

@@ -1,0 +1,7 @@
+tatsiana_shukevich_lesson8.message_log_form:
+  path: '/shukevich-tatsiana-lesson8'
+  defaults:
+    _controller: '\Drupal\tatsiana_shukevich_lesson8\Controller\LogMessageController::showLogMessagePage'
+    _title: 'Logging & cache'
+  requirements:
+    _permission: 'view content'
